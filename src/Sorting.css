@@ -1,0 +1,29 @@
+.array-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.array-bar {
+  width: 4px;
+  display: inline-block; /* arranges the array bars in horizontal way*/
+  margin: 0 2px; /*Top,Bottom -> 0px Left,Right -> 1px*/
+}
+.buttons-cont{
+
+text-align: center;
+}
+.buttons-cont button {
+  margin:10px;
+  background-color: #47535e;
+  border: none;
+  color: #eaf0f1;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  outline: 0;
+  display: inline;; /* Make the buttons appear below each other */
+  font: 15px 'Century Gothic', Futura, sans-serif;
+}
+.buttons-cont button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
